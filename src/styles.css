@@ -1,1 +1,129 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+}
+header{  
+    background-color: #7C3E66;
+    height: 70px;
+    color: #f7f1e9; 
+    font-size: 15px;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.change-pic{
+    margin-left: 10px;
+    display: inline;    
+    color: #7C3E66;
+
+}
+.edit-btn-right{
+    margin-right: 15px;
+    float: right;
+    color: #7C3E66;
+}
+.agregar-btn{
+    margin-left: 10px;
+    display: inline;    
+    color: #7C3E66;
+}
+.logoAP{
+    width: 110px;
+    height: 70px;  
+    float: left;
+}
+h1 {   
+    padding-top: -1px;    
+    color: whitesmoke;
+    position: absolute;
+    left: 115px;
+}
+
+.portada{    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    max-width: auto;
+    max-height: 300px; 
+    justify-content: center;
+}
+
+.foto-perfil{
+    width: 200;
+    height: 200;
+    overflow: hidden;   
+    border: 3px solid #7C3E66;  
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+h2, p{
+    padding-left: 10px;
+    color: #AD8B73;
+
+}
+span{
+    font-style: italic;
+}
+.left{     
+    display: inline;    
+    color: #9A86A4;
+}
+.portada, h1{
+    display: inline
+}
+
+.right{
+    position: relative;
+    right: 15px;
+    padding-top: 20px;
+    float: right;  
+    color: #6496b8;
+    margin: 5px;
+    
+}
+.right a{
+    transition: color 0.4s ease;
+    color: #f7f1e9;
+    text-decoration: none;    
+}
+.right a:hover{
+    color: #9A86A4;
+}
+
+.article{
+    background-color: #F8ECD1;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #9A86A4;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer{         
+    height: 50px;
+    padding: 1rem;
+    background-color: #7C3E66;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+}
+footer a{
+    color: antiquewhite;
+    background-color: #7C3E66;
+    float: right;  
+    text-decoration: none; 
+    transition: color 0.4s ease;    
+    
+   
+}
+.footer-left{
+    margin-left: 1rem;      
+    transition: color 0.4s ease;  
+    float: left;
+    /*acá iría un pdf*/
+}
+
+footer a:hover{
+    color: #9A86A4;  
+    
+}
+
+
