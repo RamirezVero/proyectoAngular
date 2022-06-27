@@ -1,0 +1,9 @@
+:root{
+    --bs-warning-rgb: #9A86A4;
+}
+.progress{
+    color: var(--bs-warning-rgb);    
+    width: 300px;    
+    
+}
+

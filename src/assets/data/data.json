@@ -11,25 +11,25 @@
 	"education": [
 		{
 			"escuela": "Argentina Programa",
-			"titulo": "Desarrolladora Full Stack",
-			"imagen": "./assets/imagenes/APLogo-20-20.png",
-			"carrera": "Programación",			
+			"titulo": "Full Stack Developer",
+			"imagen": "./assets/imagenes/arg-programa.png",
+			"carrera": "Programación: HTML, CSS, JS, Bootstrap, Angular, MySQL,Python, Java, Springboot.",			
 			"inicio": "Agosto 2021",
 			"fin": "Julio 2022"
 		},
 		{
 			"escuela": "Argentina Programa",
-			"titulo":" ",
-			"imagen": "./assets/imagenes/APLogo-20-20.png",
+			"titulo":"Inglés técnico.",
+			"imagen": "./assets/imagenes/arg-programa.png",
 			"carrera": "Inglés para Desarroladores",			
 			"inicio": "Marzo 2022",
 			"fin": "Mayo 2022"
 		},
 		{
 			"escuela": "Universidad de Buenos Aires, Facultad de Veterinaria.",			
-			"titulo": " ",
-			"imagen": "./assets/imagenes/Logo-UBA.png",
-			"career": "Veterinaria",			
+			"titulo": "Veterinaria, estudiante.",
+			"imagen": "./assets/imagenes/logo-uba.png",
+			"carrera": "Medicina Veterinaria",			
 			"inicio": "2007",
 			"fin": "2015"
 		},
@@ -37,8 +37,7 @@
 			"escuela": "Escuela Normal Nacional Superior Domingo F. Sarmiento",
 			"titulo": "Bachiller especializado en Física y Matemática",
 			"imagen": "./assets/imagenes/NacSanMiguel.PNG",
-			"career": "Electronica, comunicacion y sistemas de control",			
-			"inicio": "1991",
+			"carrera": "Educación Secundaria",
 			"fin": "1995"
 		}
 	],
@@ -47,14 +46,14 @@
 		{
 			"lugar": "Peluquería Canina F&V",
 			"puesto": "Propietaria",
-			"tareas": "Peluquera, asignación de turnos y trato con clientes, control de Stock",								
+			"tareas": "Peluquera, asignación de turnos y trato con clientes, control de Stock.",								
 			"inicio": "2013",
 			"fin": "Actualidad"
 		},	
 		{
 			"lugar": "Veterinaria Zoo",
 			"puesto": "Peluquera canina.",
-			"tareas": "Peluquera y ayudante del veterinario y de quirófano",
+			"tareas": "Peluquera y ayudante del veterinario y de quirófano.",
 			"logo": "https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",						
 			"inicio": "2009",
 			"fin": "2013"
@@ -62,11 +61,20 @@
 		{
 			"lugar": "Veterinaria Dra DeMaría",
 			"puesto": "Peluquera canina.",
-			"tareas": "Peluquera y ayudante de la veterinaria",
+			"tareas": "Peluquera y ayudante de la veterinaria.",
 			"logo": "https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",						
 			"inicio": "2008",
 			"fin": "2009"
 		}
+	],
+
+	"projects":[
+		{
+			"nameprjt": "Odd or Even Number?" ,
+			"description": "El programa dice si un número es par o impar.",
+			"ilustracion": "./assets/imagenes/logoPhyton.png"
+		}
+
 	],
 	
 	"id_domicilio":"2"

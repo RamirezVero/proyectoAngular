@@ -1,14 +1,31 @@
-<article class="article">
-    <h2>Educación<div class="agregar-btn">
-        <a href="#" class="agregar-btn"><i class="fa-solid fa-plus"></i></a>
-    </div></h2>
+<article class="articleEducacion">
+    <h2>Educación
+        <div class="agregar-btn">
+            <a href="#" class="agregar-btn"><i class="fa-solid fa-plus"></i></a>
+        </div>
+    </h2>
     
     <div class="edit-btn-right">
         <a href="#" class="edit-btn-right"><i class="fa-solid fa-pencil"></i></a>
     </div>
-    <p>Programadora Full Stack en Argentina Programa</p>
-    <p><span><b>Conocimientos:</b></span> HTML, CSS, JS, Bootstrap, Angular, MySQL,Python, Java, Springboot. </p>
-    <p><span><b>1997-2015:</b></span> Carrera de Veterianaria (UBA).</p>
-    <p><span><b>Idiomas:</b></span> Inglés, avanzado.
-                Alemán, principiante. </p>
+    <ul class= "lista-elementos" >
+        <li style="list-style-type: none" *ngFor="let educacion of educacionList">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <img class="logo-educ" [src]="educacion.imagen">
+                    </div>
+            
+                    <div class="col-10">
+                        <h3>{{educacion.titulo}}</h3>
+                        <h4>{{educacion.escuela}}</h4>
+                        <p><span><b>Conocimientos: </b></span>{{educacion.carrera}}</p>
+                        <p><span><b>Inicio: </b></span>{{educacion.inicio}}</p>
+                        <p><span><b>Finalización: </b></span>{{educacion.fin}}</p>
+                        <br>
+                    </div>
+                </div>    
+            </div>
+        </li>
+    </ul>      
 </article>

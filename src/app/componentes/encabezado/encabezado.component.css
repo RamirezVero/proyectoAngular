@@ -1,0 +1,14 @@
+.btn {
+    background-color:#7C3E66;
+    border-color: antiquewhite;
+    margin: 10px;
+}
+
+.change-pic{
+    color: #7C3E66 !important;
+    background-color: antiquewhite;
+}
+
+.btn a:hover{
+    color: #9A86A4; ;
+}

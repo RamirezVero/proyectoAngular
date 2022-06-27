@@ -30,8 +30,8 @@ header{
     height: 70px;  
     float: left;
 }
-h1 {   
-    padding-top: -1px;    
+.yoProgramo {   
+    padding-top: 9px;    
     color: whitesmoke;
     position: absolute;
     left: 115px;
@@ -56,8 +56,8 @@ h1 {
     top: 200px;
 }
 
-h2, p{
-    padding-left: 10px;
+p{
+    padding-left: 20px;
     color: #AD8B73;
 
 }
@@ -68,7 +68,7 @@ span{
     display: inline;    
     color: #9A86A4;
 }
-.portada, h1{
+.portada{
     display: inline
 }
 
@@ -89,13 +89,18 @@ span{
 .right a:hover{
     color: #9A86A4;
 }
+h2{
+    padding: 20px;
+}
 
 .article{
-    background-color: #F8ECD1;
+    color:#AD8B73;
+    background-color: #fdf8ed;
     font-family: 'Poppins', sans-serif;
     border: 1px solid #9A86A4;
     border-radius: 10px;
     margin: 10px;
+    
 }
 
 footer{         

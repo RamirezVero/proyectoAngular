@@ -1,9 +1,28 @@
 <article class="article">
     <h2>Proyectos<div class="agregar-btn">
-        <a href="#" class="agregar-btn"><i class="fa-solid fa-plus"></i></a>
+            <a href="#" class="agregar-btn"><i class="fa-solid fa-plus"></i></a>
     </div></h2>
     <div class="edit-btn-right">
         <a href="#" class="edit-btn-right"><i class="fa-solid fa-pencil"></i></a>
     </div>
-    <p>Texto</p>
+    <ul class="lista-elementos">
+        <li style="list-style-type: none" *ngFor="let proyecto of proyectosList">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                       <img class="ilustr-proyecto" [src]="proyecto.ilustracion" width="250px"> 
+            
+                    </div>
+            
+                    <div class="col-9">
+                        <h3>{{proyecto.nameprjt}}</h3>
+                        <p>{{proyecto.description}}</p>
+                    </div>        
+                </div>
+            </div>
+        </li>
+
+    </ul>
+    
+    
 </article>
