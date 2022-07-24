@@ -1,19 +1,40 @@
-<article class="article">
-    <h2>Experiencia
-        <div class="agregar-btn">
-            <a href="#" class="agregar-btn"><i class="fa-solid fa-plus"></i></a>
-        </div>
-    </h2>
-        <div class="edit-btn-right">
-            <a href="#" class="edit-btn-right"><i class="fa-solid fa-pencil"></i></a>
-        </div>
-        <ul class="lista-elementos">
-            <li  style="list-style-type: none" *ngFor="let experiencia of experienciasList">
-                <p><span><b>{{experiencia.lugar}}</b>: </span>{{experiencia.puesto}}</p>
-                <p>{{experiencia.tareas}}</p>
-                <p><b>Desde: </b>{{experiencia.inicio}}</p>
-                <p><b>Hasta: </b>{{experiencia.fin}}</p> 
-                <br>       
-            </li>
-        </ul>
-    </article>
+<div class="row">
+  <h2>Experiencia</h2>
+  <div class="col-lg-2">
+    <button
+      type="button"
+      class="fa-solid fa-plus"
+      routerLink="/nuevaexp"
+      *ngIf="isLogged"
+    >
+      Nueva Experiencia
+    </button>
+  </div>
+  <div class="col lg 1"></div>
+  <div class="col-lg-11">
+    <table class="table">
+      <tbody>
+        <tr *ngFor="let Experiencia of expe">
+          <td>
+            <h3>{{ Experiencia.nombreE }}:</h3>
+          </td>
+          <td><h4>{{ Experiencia.descripcionE }}</h4></td>
+          <td *ngIf="isLogged">
+            <button
+              class="btn btn-light"
+              routerLink="/editexp/{{ Experiencia.id }}"
+            >
+              <i class="fa-solid fa-pencil"></i> Editar
+            </button>
+          </td>
+          <td *ngIf="isLogged">
+            <button
+              class="btn btn-light"
+              (click)="delete(Experiencia.id)"
+            >
+            <i class="fa-solid fa-trash-can"></i> Borrar</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

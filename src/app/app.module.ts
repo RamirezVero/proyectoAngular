@@ -12,6 +12,11 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ExperienciasComponent } from './componentes/experiencias/experiencias.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+import { FormsModule } from '@angular/forms';
+import { NewExperienciaComponent } from './componentes/experiencias/new-experiencia.component';
+import { EditExperienciaComponent } from './componentes/experiencias/edit-experiencia/edit-experiencia.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +28,17 @@ import { HttpClientModule } from '@angular/common/http';
     ProyectosComponent,
     HeaderComponent,
     FooterComponent,
-    ExperienciasComponent
+    ExperienciasComponent,
+    HomeComponent,
+    LoginComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
