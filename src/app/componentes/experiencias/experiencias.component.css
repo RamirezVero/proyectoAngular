@@ -1,0 +1,24 @@
+.row{
+    color: #AD8B73;
+    background-color: #fdf8ed;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #9A86A4;
+    border-radius: 10px;
+    margin:10px;
+    padding-left: 12px;
+}
+
+button{
+    color: antiquewhite;
+    background-color: #7C3E66;
+    border-radius: 10px;
+    border: 1px solid #9A86A4;
+    font-family: 'Poppins', sans-serif; 
+    margin: 10px;   
+}
+
+h2,h3,h4,td{
+    color: #AD8B73;
+    font-family: 'Poppins', sans-serif;
+    
+}

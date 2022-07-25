@@ -38,6 +38,7 @@
 			"titulo": "Bachiller especializado en Física y Matemática",
 			"imagen": "./assets/imagenes/NacSanMiguel.PNG",
 			"carrera": "Educación Secundaria",
+			"inicio": "1991",
 			"fin": "1995"
 		}
 	],

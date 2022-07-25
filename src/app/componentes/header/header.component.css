@@ -1,0 +1,11 @@
+header{  
+    background-color: #7C3E66;
+    height: 70px;
+    color: #f7f1e9; 
+    font-size: 15px;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+button{
+    margin: -8px;
+}

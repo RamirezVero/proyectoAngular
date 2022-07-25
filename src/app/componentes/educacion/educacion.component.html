@@ -1,31 +1,44 @@
-<article class="articleEducacion">
-    <h2>Educación
-        <div class="agregar-btn">
-            <a href="#" class="agregar-btn"><i class="fa-solid fa-plus"></i></a>
-        </div>
-    </h2>
-    
-    <div class="edit-btn-right">
-        <a href="#" class="edit-btn-right"><i class="fa-solid fa-pencil"></i></a>
+<div class="row">
+    <h2>Educación</h2>
+    <div class="col-lg-2">
+        <button
+          type="button"
+          class="fa-solid fa-plus"
+          routerLink="/nuevaedu"
+          *ngIf="isLogged"
+        >
+          Nueva Educación
+        </button>
     </div>
-    <ul class= "lista-elementos" >
-        <li style="list-style-type: none" *ngFor="let educacion of educacionList">
-            <div class="container">
-                <div class="row">
-                    <div class="col-2">
-                        <img class="logo-educ" [src]="educacion.imagen">
-                    </div>
-            
-                    <div class="col-10">
-                        <h3>{{educacion.titulo}}</h3>
-                        <h4>{{educacion.escuela}}</h4>
-                        <p><span><b>Conocimientos: </b></span>{{educacion.carrera}}</p>
-                        <p><span><b>Inicio: </b></span>{{educacion.inicio}}</p>
-                        <p><span><b>Finalización: </b></span>{{educacion.fin}}</p>
-                        <br>
-                    </div>
-                </div>    
-            </div>
-        </li>
-    </ul>      
-</article>
+
+    <div class="col-lg-2"></div>
+    <div class="col-lg-10">
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let Educacion of educ">
+                    <td><h3>{{Educacion.titulo}}:</h3></td>
+                    <td><h4>{{Educacion.institucion}}</h4></td>
+                    <td><h4>{{Educacion.conocimientos}}</h4></td>
+                    <td><h4>{{Educacion.inicio}}</h4></td>
+                    <td><h4>{{Educacion.fin}}</h4></td>
+                    <td *ngIf="isLogged">
+                        <button
+                          class="btn btn-light"
+                          routerLink="/editeduc/{{Educacion.id}}"
+                        >
+                          <i class="fa-solid fa-pencil"></i> Editar
+                        </button>
+                      </td>
+                      <td *ngIf="isLogged">
+                        <button
+                          class="btn btn-light"
+                          (click)="delete(Educacion.id)"
+                        >
+                        <i class="fa-solid fa-trash-can"></i> Borrar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+         
+</div>
