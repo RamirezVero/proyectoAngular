@@ -19,6 +19,11 @@ button{
     margin: 10px;   
 }
 
+
+.fa-plus{
+    padding: 10px;
+}
+
 h2,h3,h4,td{
     color: #AD8B73;
     font-family: 'Poppins', sans-serif;

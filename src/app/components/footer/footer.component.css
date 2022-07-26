@@ -1,0 +1,27 @@
+footer{         
+    height: 50px;
+    padding: 1rem;
+    background-color: #7C3E66;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+}
+footer a{
+    color: antiquewhite;
+    background-color: #7C3E66;
+    float: right;  
+    text-decoration: none; 
+    transition: color 0.4s ease;    
+    
+   
+}
+.footer-left{
+    margin-left: 1rem;      
+    transition: color 0.4s ease;  
+    float: left;
+    /*acá iría un pdf*/
+}
+
+footer a:hover{
+    color: #9A86A4;  
+    
+}

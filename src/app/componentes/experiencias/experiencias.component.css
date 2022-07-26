@@ -14,7 +14,11 @@ button{
     border-radius: 10px;
     border: 1px solid #9A86A4;
     font-family: 'Poppins', sans-serif; 
-    margin: 10px;   
+    margin: 10px;
+}
+
+.fa-plus{
+    padding: 10px;
 }
 
 h2,h3,h4,td{

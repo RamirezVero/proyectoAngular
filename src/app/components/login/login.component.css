@@ -5,9 +5,15 @@ section{
     background-color: #7C3E66;
     border-radius: 15px;
 }
-h3, label,button{
+h3, label,button,a{
     color: antiquewhite;
 }
 button:hover{
     color: #7C3E66;
+}
+
+
+a:hover{
+    color: #9A86A4; 
+    transition: color 0.4s ease;
 }

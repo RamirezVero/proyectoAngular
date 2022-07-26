@@ -9,7 +9,7 @@ import { PersonaService } from 'src/app/servicios/persona.service';
 })
 export class EncabezadoComponent implements OnInit {
   
-  persona: persona = new persona("","","")
+  persona: persona = new persona("","","","")
 
   constructor(public personaService: PersonaService) { }
 
