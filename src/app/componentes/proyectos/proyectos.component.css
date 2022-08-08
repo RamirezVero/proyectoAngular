@@ -1,4 +1,18 @@
-.col-2, col-9{
+/*.col-2, col-8{
     display: inline;
     margin: 30px;
+}*/
+
+.fa-link{
+    font-size: 2em;    
+    color: #7C3E66;
+}
+
+.ilustr-proyecto{
+    padding: 0;
+    float: left;
+}
+
+h3,p{
+    text-align: left;
 }

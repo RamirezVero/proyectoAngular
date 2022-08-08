@@ -16,7 +16,9 @@
         <table class="table">
             <tbody>
                 <tr *ngFor="let Educacion of educ">
-                    <div class="col-xs-6 col-lg-2"></div>
+                    <div class="col-xs-6 col-lg-2">
+                      <img src="{{Educacion.img}}" class="img-fluid" alt="imagenedu">
+                    </div>
                     <div class="col-xs-6 col-lg-8">
                         <h3>{{Educacion.titulo}}</h3>
                         <h4>{{Educacion.institucion}}</h4>

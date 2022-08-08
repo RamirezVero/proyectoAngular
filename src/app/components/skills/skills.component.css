@@ -1,9 +1,14 @@
 :root{
     --bs-warning-rgb: #9A86A4;
+    font-family: 'Poppins', sans-serif;
 }
-.progress{
-    color: var(--bs-warning-rgb);    
-    width: 300px;    
+.progress{    
+    background-color: #9A86A4;    
+    max-width: 30em;       
     
 }
+
+.progress-bar {
+    background-color: #7C3E66;
+  }
 

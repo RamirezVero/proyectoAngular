@@ -1,13 +1,40 @@
+.img-fluid{    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    max-width: auto;
+    max-height: 300px; 
+    justify-content: center;
+}
+
+@media (min-width: 576px){
+    #foto-perfil{
+        position: absolute; 
+        left: 5%;
+        top: 40%;  
+        width: 200;
+        height: 200;
+        overflow: hidden;   
+        border: 3px solid #7C3E66;  
+        border-radius: 50%;          
+    }    
+    
+}
+
+h2,p{
+    text-align: left;
+}
+
+
 .btn {
     background-color:#7C3E66;
     border-color: antiquewhite;
     margin: 10px;
 }
 
-.change-pic{
+/*.change-pic{
     color: #7C3E66 !important;
     background-color: antiquewhite;
-}
+}*/
 
 .btn a:hover{
     color: #9A86A4; ;

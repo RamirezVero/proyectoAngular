@@ -1,26 +1,36 @@
 <article class="article">
-    <h2>Proyectos<div class="agregar-btn">
+    <h2>Proyectos</h2>
+        <!--<div class="agregar-btn">
             <a href="#" class="agregar-btn"><i class="fa-solid fa-plus"></i></a>
-    </div></h2>
+    </div>
     <div class="edit-btn-right">
         <a href="#" class="edit-btn-right"><i class="fa-solid fa-pencil"></i></a>
-    </div>
+    </div>-->
     <ul class="lista-elementos">
         <li style="list-style-type: none" *ngFor="let proyecto of proyectosList">
             <div class="container">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                        <img class="ilustr-proyecto" [src]="proyecto.ilustracion" width="250px"> 
             
                     </div>
+                    <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
             
-                    <div class="col-9">
+                    <div class="col-xs-11 col-sm-8 col-md-8 col-lg-8">
                         <h3>{{proyecto.nameprjt}}</h3>
                         <p>{{proyecto.description}}</p>
-                    </div>        
+                        
+                    </div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                        <a href= {{proyecto.link}} class="link-icon"><i class="fa-solid fa-link"></i></a>
+                    </div> 
+
                 </div>
             </div>
+            <br>
+            <br>
         </li>
+
 
     </ul>
     

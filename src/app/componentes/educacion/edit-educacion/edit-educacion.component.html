@@ -3,6 +3,10 @@
         <div>
             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
                 <div class="form-group">
+                    <label for="img">Imagen de la Educación</label>
+                    <input type="text" class="form-control" id="img" name="img" [(ngModel)]="education.img" required>
+                </div>
+                <div class="form-group">
                     <label for="titulo">Titulo de la educación</label>
                     <input type="text" class="form-control" id="titulo" name="titulo" [(ngModel)]="education.titulo" required>
                 </div>

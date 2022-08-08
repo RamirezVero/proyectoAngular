@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .change-pic{
@@ -18,36 +19,6 @@ body{
     display: inline;    
     color: #7C3E66;
 }
-.logoAP{
-    width: 110px;
-    height: 70px;  
-    float: left;
-}
-.yoProgramo {   
-    padding-top: 9px;    
-    color: whitesmoke;
-    position: absolute;
-    left: 115px;
-}
-
-.portada{    
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px; 
-    max-width: auto;
-    max-height: 300px; 
-    justify-content: center;
-}
-
-.foto-perfil{
-    width: 200;
-    height: 200;
-    overflow: hidden;   
-    border: 3px solid #7C3E66;  
-    border-radius: 50%;
-    position: absolute;
-    left: 50px;
-    top: 200px;
-}
 
 p{
     padding-left: 20px;
@@ -65,23 +36,7 @@ span{
     display: inline
 }
 
-.right{
-    position: relative;
-    right: 15px;
-    padding-top: 20px;
-    float: right;  
-    color: #6496b8;
-    margin: 5px;
-    
-}
-.right a{
-    transition: color 0.4s ease;
-    color: #f7f1e9;
-    text-decoration: none;    
-}
-.right a:hover{
-    color: #9A86A4;
-}
+
 h2{
     padding: 20px;
 }

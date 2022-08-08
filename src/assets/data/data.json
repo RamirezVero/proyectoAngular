@@ -71,9 +71,28 @@
 
 	"projects":[
 		{
-			"nameprjt": "Odd or Even Number?" ,
-			"description": "El programa dice si un número es par o impar.",
-			"ilustracion": "./assets/imagenes/logoPhyton.png"
+			"nameprjt": "Portfolio Personal",
+			"description": "Este Portfolio es el Proyecto Integrador del curso de Argentina Programa.",
+			"ilustracion":"./assets/imagenes/arg-programa.png",
+			"link": "https://portfoliovdr.web.app/"
+		},
+		{
+			"nameprjt": "Juego Hangman" ,
+			"description": "Ingresar al link y darle a RUN para jugar",
+			"ilustracion": "./assets/imagenes/logoPhyton.png",
+			"link": "https://replit.com/@Vreckz/Day-7-Hangman-5-final#main.py"
+		},
+		{
+			"nameprjt": "Juego Piedra, Papel o Tijera" ,
+			"description": "Ingresar al link y darle a RUN para jugar",
+			"ilustracion": "./assets/imagenes/logoPhyton.png",
+			"link": "https://replit.com/@Vreckz/rock-paper-scissors-start#main.py"
+		},
+		{
+			"nameprjt": "Generador de Contraseñas" ,
+			"description": "Ingresar al link y dale a RUN para generar una contraseña eligiando la cantidad de letras, símbolos y números que quieras.",
+			"ilustracion": "./assets/imagenes/logoPhyton.png",
+			"link": "https://replit.com/@Vreckz/password-generator-end-1#main.py"
 		}
 
 	],

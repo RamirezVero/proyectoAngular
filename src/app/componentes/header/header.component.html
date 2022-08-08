@@ -1,22 +1,27 @@
-<header id="titulo">
+<header id="header">
     <div class="left">
-        <img class="logoAP" src="./assets/imagenes/APLogo-20-20.png" alt="" width= "40px" height="20px">
-        <div class="yoProgramo"><h3>#YoProgramo</h3></div>
+        <img class="logoAP" src="./assets/imagenes/APLogo-20-20.png" alt="" width= "40px" height="20px">        
+    </div>    
+    <div class="yoProgramo">
+        <h3>#YoProgramo</h3>
     </div>
-    <div class="right">
+    
+    <div class="button">
         <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Ingresar</button>
         <button type="button" class="btn btn-outline-light" (click)="onLogout()" *ngIf="isLogged">Cerrar Sesión</button>
     </div>
            
     <div class="right">
-        <a target="_blank" href="https://github.com/RamirezVero">GitHub</a>
+        <a href="https://github.com/RamirezVero" class="social-btn"><i class="fa-brands fa-github"></i></a> 
     </div>
     <div class="right">
-        <a target="_blank" href="https://www.linkedin.com/in/ver%C3%B3nica-ramirez-b6768b240/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/ver%C3%B3nica-ramirez-b6768b240/" class="social-btn"><i class="fa-brands fa-linkedin"></i></a>
     </div>
     <div class="right">
-        <a target="_blank" href="https://www.instagram.com/vreckz/">Instagram</a>
+        <a href="https://www.instagram.com/vreckz/" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
     </div>
+    
+    
     
     
 </header>

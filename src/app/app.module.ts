@@ -18,6 +18,7 @@ import { NewExperienciaComponent } from './componentes/experiencias/new-experien
 import { EditExperienciaComponent } from './componentes/experiencias/edit-experiencia/edit-experiencia.component';
 import { NewEducacionComponent } from './componentes/educacion/new-educacion/new-educacion.component';
 import { EditEducacionComponent } from './componentes/educacion/edit-educacion/edit-educacion.component';
+import { interceptorProvider } from './servicios/interceptor-service';
 
 
 
@@ -44,7 +45,9 @@ import { EditEducacionComponent } from './componentes/educacion/edit-educacion/e
     HttpClientModule,
     FormsModule    
   ],
-  providers: [],
+  providers: [
+    interceptorProvider,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
