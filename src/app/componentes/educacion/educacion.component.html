@@ -16,16 +16,19 @@
         <table class="table">
             <tbody>
                 <tr *ngFor="let Educacion of educ">
-                    <div class="col-xs-6 col-lg-2">
+                    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                       <img src="{{Educacion.img}}" class="img-fluid" alt="imagenedu">
                     </div>
-                    <div class="col-xs-6 col-lg-8">
+                    <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-11 col-sm-8 col-md-8 col-lg-8">
                         <h3>{{Educacion.titulo}}</h3>
                         <h4>{{Educacion.institucion}}</h4>
                         <p><span><b>Conocimientos: </b></span>{{Educacion.conocimientos}}</p>
                         <p><span><b>Inicio: </b></span>{{Educacion.inicio}}</p>
                         <p><span><b>Finalización: </b></span>{{Educacion.fin}}</p>
-                        <td *ngIf="isLogged">                        
+                    </div>
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 
+                        <td *ngIf="isLogged">    
                             <button
                               class="btn btn-light"
                               routerLink="/editeduc/{{Educacion.id}}"
@@ -39,7 +42,6 @@
                               (click)="delete(Educacion.id)"
                             >
                             <i class="fa-solid fa-trash-can"></i></button>
-    
                         </td>
                       
                     </div>
